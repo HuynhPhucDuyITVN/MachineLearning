@@ -1,3 +1,4 @@
+*Giải nén file model_final.part1.rar đễ có được kết mô mô hình Detectron2
 *Tải các thư viện cần thiết.
 - Mở cmd (command prompt) dưới quyền admin
 - Trỏ tới đường dẫn thư mục chứa các thư viện cần thiết bằng lệnh:
