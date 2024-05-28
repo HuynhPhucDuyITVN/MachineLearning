@@ -1,0 +1,25 @@
+*Tải các thư viện cần thiết.
+- Mở cmd (command prompt) dưới quyền admin
+- Trỏ tới đường dẫn thư mục chứa các thư viện cần thiết bằng lệnh:
+	cd <Đường dẫn đến thư mục>
+- Thực hiện câu lệnh cài đặt các thư viện cần thiết:
+	pip install -r requirements.txt	
+
+- Kiểm tra CPU đang hoạt động:
+	nvcc --version
+	=>> Xem version của cuda (11.8 hoặc 12.1)
+
+- Cài đặt pytorch
+	version 11.8
+	-- pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+	version 12.1
+	-- pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+- Cài đặt Detectron2
+	git clone https://github.com/facebookresearch/detectron2.git
+	python -m pip install -e detectron2
+*Chạy chương trình:
+- Thực hiện file My_Web.py trong thư mục Web
+- Sau khi chạy xong truy cập đến địa chỉ id bằng trình duyệt web
+  ở các dòng Running on <...> trong cmd.
+
+
