@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Break', 'Inferior', 'Rice']
+
+roboflow:
+  workspace: dehusked-rice
+  project: dataset_rice
+  version: 17
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dehusked-rice/dataset_rice/dataset/17
